@@ -20,8 +20,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/Strange-Jackle/HACKIITK-CPS-1.git
-cd HACKIITK-CPS-1
+git clone https://github.com/Trushang-Patel/HACKIITK-2024.git
+cd HACKIITK-2024
 
 # Install dependencies
 pip install -r requirements.txt
