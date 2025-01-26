@@ -1,11 +1,11 @@
-g{
-  "IoCs": {
+{
+  "Indicators_of_Compromise": {
     "Domains": [
       "www.recordedfuture.com",
       "protonmail.com",
       "recordedfuture.com"
     ],
-    "IP addresses": []
+    "IP_addresses": []
   },
   "TTPs": {
     "Tactics": [
@@ -105,39 +105,39 @@ g{
       ]
     ]
   },
-  "Threat Actor(s)": [
+  "Threat_Actors": [
     "Sandworm"
   ],
   "Malware": [
     {
       "Name": "Unknown",
       "tags": [
-        "Detected by 26/92 engines",
-        "Detected by 30/92 engines",
         "Detected by 31/92 engines",
+        "Detected by 30/92 engines",
         "Detected by 59/92 engines",
+        "Detected by 26/92 engines",
         "Detected by 26/92 engines"
       ],
-      "sha256": "b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1",
+      "sha256": "b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd",
       "sha1": "1ae7556dfacd47d9efbe79be974661a5a6d6d923"
     },
     {
       "Name": "H",
       "tags": [
         "Detected by 59/92 engines",
+        "Detected by 60/92 engines",
         "Detected by 57/92 engines",
         "Detected by 58/92 engines",
-        "Detected by 57/92 engines",
-        "Detected by 60/92 engines"
+        "Detected by 57/92 engines"
       ],
-      "sha256": "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"
+      "sha256": "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"
     }
   ],
-  "Targeted Entities": [
-    "finance and government contractor organizations in Ukraine",
+  "Targeted_Entities": [
     "Ukrainian websites earlier that day",
+    "finance and government contractor organizations in Ukraine",
+    "Ukrainian organizations",
     "a Microsoft Exchange server on December",
-    "Ukraine",
-    "Ukrainian organizations"
+    "Ukraine"
   ]
 }
