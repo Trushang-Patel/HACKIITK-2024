@@ -189,5 +189,5 @@ def process_pdf(pdf_path: str) -> Dict:
     return analysis
 
 if __name__ == "__main__":
-    report = process_pdf('Mandiant_An-Overview-of-UNC2891(03-16-2022).pdf')
+    report = process_pdf('RecordedFuture_mtp-2022-0302(03-02-2022).pdf')
     print(json.dumps(report, indent=2))

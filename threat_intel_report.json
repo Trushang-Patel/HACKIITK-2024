@@ -1,33 +1,21 @@
 {
   "IoCs": {
     "Domains": [
-      "mandiant.com"
+      "www.recordedfuture.com",
+      "protonmail.com",
+      "recordedfuture.com"
     ],
-    "IP addresses": [
-      "192.168.1.10"
-    ]
+    "IP addresses": []
   },
   "TTPs": {
     "Tactics": [
-      [
-        "TA0006",
-        "Credential Access"
-      ],
       [
         "TA0002",
         "Execution"
       ],
       [
-        "TA0003",
-        "Persistence"
-      ],
-      [
-        "TA0008",
-        "Lateral Movement"
-      ],
-      [
-        "TA0005",
-        "Defense Evasion"
+        "TA0040",
+        "Impact"
       ],
       [
         "TA0007",
@@ -36,299 +24,120 @@
       [
         "TA0009",
         "Collection"
-      ],
-      [
-        "TA0043",
-        "Reconnaissance"
-      ],
-      [
-        "TA0011",
-        "Command and Control"
       ]
     ],
     "Techniques": [
       [
-        "T1560.001",
-        "Archive via Utility"
+        "T1053.005",
+        "Scheduled Task"
       ],
       [
-        "T1027.009",
-        "Embedded Payloads"
-      ],
-      [
-        "T1556.003",
-        "Pluggable Authentication Modules"
-      ],
-      [
-        "T1056.001",
-        "Keylogging"
-      ],
-      [
-        "T1110.001",
-        "Password Guessing"
-      ],
-      [
-        "T1003",
-        "OS Credential Dumping"
-      ],
-      [
-        "T1014",
-        "Rootkit"
-      ],
-      [
-        "T1590.002",
-        "DNS"
-      ],
-      [
-        "T1501",
-        "Systemd Service"
-      ],
-      [
-        "T1099",
-        "Timestomp"
-      ],
-      [
-        "T1071.004",
-        "DNS"
+        "T1116",
+        "Code Signing"
       ],
       [
         "T1587.001",
         "Malware"
       ],
       [
-        "T1592.001",
-        "Hardware"
-      ],
-      [
-        "T1573.001",
-        "Symmetric Cryptography"
-      ],
-      [
-        "T1588.006",
-        "Vulnerabilities"
-      ],
-      [
-        "T1070.002",
-        "Clear Linux or Mac System Logs"
-      ],
-      [
-        "T1021.004",
-        "SSH"
-      ],
-      [
-        "T1135",
-        "Network Share Discovery"
-      ],
-      [
-        "T1082",
-        "System Information Discovery"
-      ],
-      [
-        "T1071",
-        "Application Layer Protocol"
-      ],
-      [
-        "T1140",
-        "Deobfuscate/Decode Files or Information"
-      ],
-      [
-        "T1583.001",
-        "Domains"
-      ],
-      [
-        "T1560.002",
-        "Archive via Library"
-      ],
-      [
-        "T1552",
-        "Unsecured Credentials"
-      ],
-      [
-        "T1139",
-        "Bash History"
+        "T1553.002",
+        "Code Signing"
       ],
       [
         "T1153",
         "Source"
       ],
       [
-        "T1070.006",
-        "Timestomp"
-      ],
-      [
-        "T1620",
-        "Reflective Code Loading"
-      ],
-      [
-        "T1572",
-        "Protocol Tunneling"
-      ],
-      [
-        "T1560",
-        "Archive Collected Data"
-      ],
-      [
-        "T1021",
-        "Remote Services"
-      ],
-      [
-        "T1107",
-        "File Deletion"
-      ],
-      [
-        "T1145",
-        "Private Keys"
-      ],
-      [
-        "T1552.004",
-        "Private Keys"
+        "T1505.003",
+        "Web Shell"
       ],
       [
         "T1583.004",
         "Server"
       ],
       [
-        "T1053.001",
-        "At (Linux)"
-      ],
-      [
-        "T1179",
-        "Hooking"
-      ],
-      [
-        "T1548.001",
-        "Setuid and Setgid"
-      ],
-      [
-        "T1215",
-        "Kernel Modules and Extensions"
-      ],
-      [
-        "T1016",
-        "System Network Configuration Discovery"
-      ],
-      [
-        "T1090",
-        "Proxy"
-      ],
-      [
-        "T1059",
-        "Command and Scripting Interpreter"
+        "T1589.002",
+        "Email Addresses"
       ],
       [
         "T1588.001",
         "Malware"
       ],
       [
-        "T1070",
-        "Indicator Removal"
-      ],
-      [
-        "T1083",
-        "File and Directory Discovery"
-      ],
-      [
-        "T1049",
-        "System Network Connections Discovery"
-      ],
-      [
-        "T1064",
-        "Scripting"
-      ],
-      [
-        "T1552.003",
-        "Bash History"
-      ],
-      [
-        "T1547.006",
-        "Kernel Modules and Extensions"
+        "T1059.001",
+        "PowerShell"
       ],
       [
         "T1588.002",
         "Tool"
       ],
       [
-        "T1110",
-        "Brute Force"
-      ],
-      [
-        "T1059.004",
-        "Unix Shell"
-      ],
-      [
-        "T1059.011",
-        "Lua"
-      ],
-      [
-        "T1027",
-        "Obfuscated Files or Information"
+        "T1592.002",
+        "Software"
       ],
       [
         "T1589.001",
         "Credentials"
       ],
       [
-        "T1166",
-        "Setuid and Setgid"
+        "T1100",
+        "Web Shell"
       ],
       [
-        "T1095",
-        "Non-Application Layer Protocol"
-      ],
-      [
-        "T1003.008",
-        "/etc/passwd and /etc/shadow"
-      ],
-      [
-        "T1070.004",
-        "File Deletion"
-      ],
-      [
-        "T1543.002",
-        "Systemd Service"
+        "T1485",
+        "Data Destruction"
       ],
       [
         "T1584.004",
         "Server"
       ],
       [
-        "T1018",
-        "Remote System Discovery"
-      ],
-      [
-        "T1105",
-        "Ingress Tool Transfer"
-      ],
-      [
-        "T1480.001",
-        "Environmental Keying"
-      ],
-      [
         "T1053.002",
         "At"
       ],
       [
-        "T1584.001",
-        "Domains"
+        "T1086",
+        "PowerShell"
+      ],
+      [
+        "T1001.001",
+        "Junk Data"
       ]
     ]
   },
   "Threat Actor(s)": [
-    "Unc2891",
-    "Unc1945"
+    "Sandworm"
   ],
   "Malware": [
     {
       "Name": "Unknown",
       "tags": [
-        "Detected by 39/92 engines",
-        "Detected by 39/92 engines"
+        "Detected by 26/92 engines",
+        "Detected by 30/92 engines",
+        "Detected by 31/92 engines",
+        "Detected by 59/92 engines",
+        "Detected by 26/92 engines"
       ],
-      "sha1": "097d3a15510c48cdb738344bdf00082e546827e8",
-      "md5": "4e9967558cd042cac8b12f378db14259"
+      "sha256": "b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1",
+      "sha1": "1ae7556dfacd47d9efbe79be974661a5a6d6d923"
+    },
+    {
+      "Name": "H",
+      "tags": [
+        "Detected by 59/92 engines",
+        "Detected by 57/92 engines",
+        "Detected by 58/92 engines",
+        "Detected by 57/92 engines",
+        "Detected by 60/92 engines"
+      ],
+      "sha256": "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"
     }
   ],
   "Targeted Entities": [
-    "of Oracle Solaris based systems with TINYSHELL and SLAPSTICK backdoors"
+    "finance and government contractor organizations in Ukraine",
+    "Ukrainian websites earlier that day",
+    "a Microsoft Exchange server on December",
+    "Ukraine",
+    "Ukrainian organizations"
   ]
 }

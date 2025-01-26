@@ -59,7 +59,7 @@
 
 ### Simple PDF Analysis
 ```bash
-python runner.py sample_report.pdf
+python runner.py 
 ```
 
 ### Analysis Pipeline
